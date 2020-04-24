@@ -18,11 +18,11 @@ ul{
 }
 /* Header **/
 header{
-  background:rgba(246, 185, 59,1.0);
+  background:rgba(127, 140, 141,1.0);
   color:#ffffff;
   padding-top:30px;
   min-height:70px;
-  border-bottom:#e8491d 3px solid;
+  border-bottom:rgba(236, 240, 241,1.0)3px solid;
 }
 
 header a{
@@ -63,14 +63,15 @@ header a:hover{
 
 /* Showcase */
 #showcase{
-  height:500px;
-  background:url('../img/showcase.jpg') no-repeat 0 -500px;
-  text-align:center;
+  height:670px;
+  background:url('../img/header-min.jpg') ;
+  text-align:left;
   color:#ffffff;
+  background-size: cover;
 }
 
 #showcase h1{
-  margin-top:100px;
+  padding-top: 200px;
   font-size:55px;
   margin-bottom:10px;
 }
@@ -183,6 +184,7 @@ footer{
 
   #showcase h1{
     margin-top:40px;
+    background-size: cover;
   }
 
 }
