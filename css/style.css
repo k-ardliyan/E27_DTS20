@@ -295,7 +295,7 @@ footer{
 @media(max-width: 768px){
   header{
     position: sticky;
-    top: -85px;
+    top: -90px;
   }
   header #branding
   {
@@ -358,11 +358,6 @@ footer{
   #showcase{
     background-size: cover;
   }
-}
- 
-footer{
-	position: fixed;
-	bottom: 0;
 }
  
 @media (max-height:800px){
