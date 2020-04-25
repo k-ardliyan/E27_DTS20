@@ -111,25 +111,47 @@ header a:hover{
 #boxes h1{
   text-align: center;
 }
-/* Boxes2 */
+
+/* Boxes2 K-Ardliyan*/
 #boxes2{
   margin-top:20px;
-  background-color:yellow;
+  background-color:#C4C4C4;
+  padding: 20px;
+}
+
+#boxes2 .container{
+  text-align: center;
+}
+
+#boxes2 .box2-wrapper{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 #boxes2 .box2{
-  float:left;
-  text-align: center;
-  width:30%;
-  padding:10px;
+  border-radius: 20px;
+  background-color: #E7E7E7;
+  text-align: justify;
+  width: 30%;
+  margin: 10px 5px;
+}
+
+#boxes2 .box2-title{
+  padding: 10px;
+  box-sizing: border-box;
 }
 
 #boxes2 .box2 img{
-  width:90px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  width: 100%;
 }
-#boxes2 h1{
+
+#boxes2 h1,h3{
   text-align: center;
 }
+/* End Boxes2 K-Ardliyan*/
 
 .extra_profil{
 	background: rgb(218 165 32);
