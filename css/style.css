@@ -101,8 +101,7 @@ header a:hover{
 #boxes .box{
   float:left;
   text-align: center;
-  width:30%;
-  padding:10px;
+  width:25%;
 }
 
 #boxes .box img{
@@ -154,19 +153,18 @@ header a:hover{
 /* End Boxes2 K-Ardliyan*/
 
 .extra_profil{
-	background: rgb(218 165 32);
+	background: #c0c0c0;
   box-sizing:border-box;
   font-family: sans-serif;
 }
 
 .wrapper_profil{
-	margin-top: 60px;
 	text-align: center;
 }
 
 .wrapper_profil h1{
 	font-family: cursive;
-	color: #fff;
+	color: black;
 	font-size:48px;
 	margin-bottom: 25px;
 }
@@ -183,6 +181,7 @@ header a:hover{
 	margin: 5px;
 	background: #fff;
 	padding: 20px 10px;
+	border-radius: 18px;
 }
 
 .our_team .team_member .member_img{
