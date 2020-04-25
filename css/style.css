@@ -29,7 +29,6 @@ ul{
 
 /* Header **/
 header{
-  position: s;
   background:#2c292f;
   color:#ffffff;
   padding-top:30px;
@@ -44,7 +43,7 @@ header a{
 
 header li{
   display:inline;
-  padding: 0 10px 0 10px;
+  padding: 0 15px 0 15px;
 }
 
 header #branding{
@@ -302,7 +301,7 @@ footer{
   }
   header nav li
   {
-    padding: 0 5px 0 0;
+    padding: 0 7px 0 0;
     float:none;
     text-align:center;
     width:100%;
