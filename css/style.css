@@ -12,6 +12,7 @@ p, h3{
 }
 
 h2{
+  font-size: 28px;
   font-family: 'PT Serif', serif;
 }
 
@@ -29,6 +30,9 @@ ul{
 
 /* Header **/
 header{
+  position: sticky;
+  top: -15px;
+  z-index: 99;
   background:#2c292f;
   color:#ffffff;
   padding-top:30px;
@@ -121,7 +125,8 @@ header a:hover{
 
 /* Boxes */
 #boxes{ 
-  background-color:white;
+  padding-top: 70px;
+  background-color: rgb(240, 240, 240);
   padding-bottom: 30px;
 }
 
@@ -135,7 +140,6 @@ header a:hover{
   width:90px;
 }
 #boxes h2{
-
   text-align: center;
   margin-bottom: 20px;
 }
@@ -143,7 +147,8 @@ header a:hover{
 /* Boxes2 K-Ardliyan*/
 #boxes2{
   background-color:#C4C4C4;
-  padding: 20px;
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 
 #boxes2 .container{
@@ -184,6 +189,7 @@ header a:hover{
 	background: linear-gradient(rgba(240, 240, 240, 0), rgba(240, 240, 240, 0.5));
   box-sizing:border-box;
   font-family: sans-serif;
+  padding-top: 70px; 
   padding-bottom: 50px;
   margin-bottom: -20px;
 }
@@ -287,11 +293,19 @@ footer{
 
 /* Media Queries */
 @media(max-width: 768px){
+  header{
+    position: sticky;
+    top: -85px;
+  }
   header #branding
   {
     float:none;
     text-align:center;
     width:100%;
+  }
+  header #branding h1
+  {
+    margin-bottom: 20px;
   }
   header nav
   {
@@ -301,8 +315,8 @@ footer{
   }
   header nav li
   {
-    padding: 0 7px 0 0;
-    margin:0 15px 0 0;
+    padding:0 7px;
+    margin:0;
     float:none;
     text-align:center;
     width:100%;
@@ -361,7 +375,7 @@ footer{
 	width: 100%;
 	text-align: left;
 	font: bold 16px sans-serif;
-	padding: 50px 50px 60px 50px;
+	padding: 70px 50px 60px 50px;
 }
  
 .footer-distributed .footer-left,
