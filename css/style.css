@@ -32,7 +32,6 @@ header{
   background:#2c292f;
   color:#ffffff;
   padding-top:30px;
-  min-height:70px;
 }
 
 header a{
@@ -43,9 +42,8 @@ header a{
 }
 
 header li{
-  float:left;
   display:inline;
-  padding: 0 20px 0 20px;
+  padding: 0 15px 0 15px;
 }
 
 header #branding{
@@ -62,6 +60,7 @@ header #branding h1{
 header nav{
   float:right;
   margin-top:10px;
+
 }
 
 header .highlight{
@@ -302,6 +301,8 @@ footer{
   }
   header nav li
   {
+    padding: 0 7px 0 0;
+    margin:0 15px 0 0;
     float:none;
     text-align:center;
     width:100%;
