@@ -38,6 +38,13 @@ header{
   padding-top:30px;
 }
 
+header h1,ul{
+  animation: animasi-header ease 5s;
+  animation-iteration-count: 1;
+  transform-origin: 50% 50%;
+  animation-fill-mode:forwards; 
+}
+
 header a{
   color:#ffffff;
   text-decoration:none;
@@ -109,6 +116,35 @@ header a:hover{
   margin-top: -15px;
   margin-left: auto;
   max-width: 500px;
+}
+
+.animate{
+  animation: animasi ease 5s;
+  animation-iteration-count: 1;
+  transform-origin: 50% 50%;
+  animation-fill-mode:forwards; 
+}
+
+@keyframes animasi{
+  0% {
+    opacity:0;
+    transform:  translate(0px,100px)  ;
+  }
+  100% {
+    opacity:1;
+    transform:  translate(0px,0px)  ;
+  }
+}
+
+@keyframes animasi-header{
+  0% {
+    opacity:0;
+    transform:  translate(0px,-100px)  ;
+  }
+  100% {
+    opacity:1;
+    transform:  translate(0px,0px)  ;
+  }
 }
 
 /* Newsletter */
@@ -296,6 +332,10 @@ footer{
   header{
     position: sticky;
     top: -90px;
+    padding-bottom:20px;
+  }
+  header a{
+    font-size: 12px;
   }
   header #branding
   {
@@ -315,8 +355,8 @@ footer{
   }
   header nav li
   {
-    padding:0 7px;
-    margin:0;
+    padding: 2px;
+    margin: 0;
     float:none;
     text-align:center;
     width:100%;
@@ -338,10 +378,6 @@ footer{
     float:none;
     text-align:center;
     width:100%;
-  }
-
-  header{
-    padding-bottom:20px;
   }
 
   #showcase h1{
