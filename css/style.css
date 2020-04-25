@@ -29,6 +29,7 @@ ul{
 
 /* Header **/
 header{
+  position: s;
   background:#2c292f;
   color:#ffffff;
   padding-top:30px;
@@ -42,9 +43,8 @@ header a{
 }
 
 header li{
-  float:left;
   display:inline;
-  padding: 0 20px 0 20px;
+  padding: 0 10px 0 10px;
 }
 
 header #branding{
@@ -61,6 +61,7 @@ header #branding h1{
 header nav{
   float:right;
   margin-top:10px;
+
 }
 
 header .highlight{
@@ -301,6 +302,7 @@ footer{
   }
   header nav li
   {
+    padding: 0 5px 0 0;
     float:none;
     text-align:center;
     width:100%;
