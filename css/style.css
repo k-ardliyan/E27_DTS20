@@ -101,8 +101,7 @@ header a:hover{
 #boxes .box{
   float:left;
   text-align: center;
-  width:30%;
-  padding:10px;
+  width:25%;
 }
 
 #boxes .box img{
