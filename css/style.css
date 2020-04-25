@@ -18,11 +18,10 @@ ul{
 }
 /* Header **/
 header{
-  background:rgba(127, 140, 141,1.0);
+  background:#2c292f;
   color:#ffffff;
   padding-top:30px;
   min-height:70px;
-  border-bottom:rgba(236, 240, 241,1.0)3px solid;
 }
 
 header a{
@@ -43,7 +42,10 @@ header #branding{
 }
 
 header #branding h1{
+  font: normal 50px 'Cookie', cursive;
+  color:#e0ac1c;
   margin:0;
+  margin-bottom: 10px;
 }
 
 header nav{
@@ -51,13 +53,17 @@ header nav{
   margin-top:10px;
 }
 
-header .highlight, header .current a{
-  color:black;
+header .highlight{
+  color:white;
+  font-weight:bold;
+}
+ header .current a{
+  color:#e0ac1c;
   font-weight:bold;
 }
 
 header a:hover{
-  color:#cccccc;
+  color:#e0ac1c;
   font-weight:bold;
 }
 
@@ -68,16 +74,21 @@ header a:hover{
   text-align:left;
   color:#ffffff;
   background-size: cover;
+  margin-top: -200px;
 }
 
 #showcase h1{
+  font: normal 60px 'Cookie', cursive;
   padding-top: 200px;
-  font-size:55px;
   margin-bottom:10px;
 }
 
+#showcase span{
+  color:#e0ac1c;
+}
+
 #showcase p{
-  font-size:20px;
+  font: normal 35px 'Cookie', cursive;
 }
 
 /* Newsletter */
@@ -93,28 +104,28 @@ header a:hover{
 }
 
 /* Boxes */
-#boxes{
-  margin-top:20px;
-  background-color: blue;
+#boxes{ 
+  background-color:white;
+  padding-bottom: 30px;
 }
 
 #boxes .box{
   float:left;
   text-align: center;
-  width:30%;
-  padding:10px;
+  width:25%;
 }
 
 #boxes .box img{
   width:90px;
 }
 #boxes h1{
+
   text-align: center;
+  margin-bottom: 20px;
 }
 
 /* Boxes2 K-Ardliyan*/
 #boxes2{
-  margin-top:20px;
   background-color:#C4C4C4;
   padding: 20px;
 }
@@ -154,19 +165,20 @@ header a:hover{
 /* End Boxes2 K-Ardliyan*/
 
 .extra_profil{
-	background: rgb(218 165 32);
+	background: #C4C4C4;
   box-sizing:border-box;
   font-family: sans-serif;
+  padding-bottom: 50px;
+  margin-bottom: -20px;
 }
 
 .wrapper_profil{
-	margin-top: 60px;
 	text-align: center;
 }
 
 .wrapper_profil h1{
 	font-family: cursive;
-	color: #fff;
+	color: black;
 	font-size:48px;
 	margin-bottom: 25px;
 }
@@ -183,6 +195,7 @@ header a:hover{
 	margin: 5px;
 	background: #fff;
 	padding: 20px 10px;
+	border-radius: 18px;
 }
 
 .our_team .team_member .member_img{
@@ -358,7 +371,6 @@ footer{
 	text-align: left;
 	font: bold 16px sans-serif;
 	padding: 50px 50px 60px 50px;
-	margin-top: 80px;
 }
  
 .footer-distributed .footer-left,
