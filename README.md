@@ -1,6 +1,6 @@
 # DOKUMENTASI TIM E27
 Tema HTML&CSS | Digitalent x Progate
-Link Profil Peserta di Github
+
 - header oleh [Ilham Azis](https://github.com/Firrama)
 - bagian-1 oleh [JS Atanta](https://github.com/jsatanta)
 - bagian-2 oleh [K-Ardliyan](https://github.com/k-ardliyan)
